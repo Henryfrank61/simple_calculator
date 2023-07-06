@@ -1,0 +1,43 @@
+body, html{
+    margin:2px;
+    padding:1px;
+   opacity: 1;
+   text-align: center;
+}
+.all{
+    text-align: center;    /*This code centers my text to the middle */
+    background-color:#6c98da;
+    width:1000px;
+    padding: 20px
+}
+.body{
+    text-align: center;
+    padding: 10px 370px;
+     margin-top: 0px auto;
+     width: 190px;
+     margin-bottom: 3%;
+}
+#btn, 
+#btn2, 
+#btn3, 
+#btn4,
+#clrbtn{
+    display:inline-block;
+    padding: 5px 10px;
+    font-size: 15px; 
+    cursor:pointer;
+    text-align: center;
+    color:aliceblue;
+    background-color:forestgreen;
+    border-radius: 15px;
+    box-shadow: 9px #999;
+}
+#btn:active,
+#btn2:active,
+#btn3:active,
+#btn4:active,
+#clrbtn:active{
+    background-color:#999;
+    box-shadow: 5px #666;
+    transform: translateY(4px);
+}
